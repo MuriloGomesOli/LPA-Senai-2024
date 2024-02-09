@@ -8,7 +8,7 @@
 
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
 
@@ -21,7 +21,7 @@ programa
 	leia(n2)
 
 	media=(n1+n2)/3
-	escreva("\n A média do aluno é: ",mat.arredondar(media,2) )
+	escreva("\n A média do aluno é: ",mat.arredondar(media,2))
 		
 	}
 }
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 338; 
+ * @POSICAO-CURSOR = 328; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
