@@ -9,7 +9,7 @@ programa
 		{
 			limpa()
 			escreva("Detonação em: ", i)
-			i = i - 1																	//Decrementar o I//
+			i = i - 1	// // Decrementar = diminuir o valor em 1, ou seja, i--//
 			Util.aguarde(1000) // 1000 milisegundos são 1 segundo
 		}
 
@@ -22,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 212; 
+ * @POSICAO-CURSOR = 214; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
