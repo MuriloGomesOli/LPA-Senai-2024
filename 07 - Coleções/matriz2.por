@@ -11,41 +11,44 @@ inclua biblioteca Matematica --> m
 	
 	funcao inicio()
 	{
-		real coordenadas[5][2] //= {{24.5, 30.7}, {40.0, 16.0}, {-45.6, -11.06}, {23.4,56.0}, {123.4,13.0}}
+		real coordenadas[5][2] 
 
-		
+		preencher(coordenadas)
+		exibir(coordenadas)
+	}
+	funcao preencher (real coordenadas[][]){	
 		para (inteiro i = 0; i<u.numero_linhas(coordenadas); i++)
 		{
-			para(inteiro j = 0; j< u.numero_colunas(coordenadas); j++)
-			{
-			coordenadas[i][j]= m.arredondar(u.sorteia(-9000,9000), 2)/100.0
-			}
+			para(inteiro j = 0; j< u.numero_colunas(coordenadas); j++){
+				se( j== 0){
 			
+			coordenadas[i][j]= m.arredondar(u.sorteia(-9000,9000), 2)/100.0
+			} senao{
+				coordenadas[i][j]= m.arredondar(u.sorteia(-18000,18000), 2)/100.0
+			}
+			}
 		}
-		exibir(coordenadas)
-
-		}
+			
+	}
 		funcao exibir(real coordenadas[][])
 		{
-			para (inteiro i = 0; 1<u.numero_linhas(coordenadas); i++)
+			para (inteiro i = 0; i<u.numero_linhas(coordenadas); i++)
 			{
-				para(inteiro j = 0; j< u.numero_colunas(coordenadas); j++)
+				para(inteiro j = 0; j< u.numero_colunas(coordenadas); j++){
 				escreva(coordenadas[i][j],"\t")
 			}
 			escreva("\n")
-	}
+		}
 
-}
+	}
 	
 }
-
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 716; 
+ * @POSICAO-CURSOR = 334; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
