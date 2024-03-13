@@ -30,14 +30,16 @@ programa
 		retorne n * fatorial2( n - 1 )	
 	}
 }
+
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 285; 
+ * @POSICAO-CURSOR = 297; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {n, 25, 34, 1};
+ * @SIMBOLOS-INSPECIONADOS = {n, 25, 34, 1}-{n, 8, 10, 1}-{resultado, 17, 10, 9}-{i, 16, 10, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
